@@ -1,0 +1,96 @@
+body {
+  margin: 0 auto;
+  width: 0 auto;
+}
+.my-cont {
+  width: 60%;
+}
+#cont {
+  width: -webkit-fill-available;
+  border: 2px solid black;
+}
+#button {
+  display: flex;
+  justify-content: space-around;
+  padding: 2%;
+  border: 2px solid black;
+}
+#result {
+  text-align: center;
+  display: none;
+  border: 2px solid black;
+}
+.flex-box-container {
+  display: flex;
+  border: 2px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-box-container img {
+  margin: 10px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+}
+#flex-cat-gen {
+  display: none;
+}
+.rps {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-bottom: 1%;
+}
+.rps img:hover {
+  box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-bottom: 2%;
+}
+/* Challenge 5 */
+.flex-blackjack-row-1 {
+  padding: 8px;
+  margin: 0 auto;
+  background: url('images/bj-bg.jpg');
+}
+.col-lg-6 {
+  padding: 5px;
+  min-height: 350px;
+  border: 1px solid black;
+}
+.f-btn {
+  margin: 0 auto;
+  width: fit-content;
+  border: 1px solid black;
+  padding: 8px;
+}
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  margin-top: 8px;
+  width: -webkit-fill-available;
+  padding: 8px;
+  border: 1px solid black;
+}
+.flex-blackjack-row-4 {
+  width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+}
+th,
+td {
+  color: white;
+  font-size: 15px;
+  padding: 5px;
+  border: 1px solid black;
+}
+#your-box1,
+#dealer-box1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
